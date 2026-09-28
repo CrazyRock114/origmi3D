@@ -4,3 +4,4 @@ scripts/.engine-check.mjs
 scripts/.debug.mjs
 *.log
 .DS_Store
+.vercel

@@ -71,5 +71,5 @@ export const fan: Tutorial = {
       tip: '底端卷上一圈胶带，扇子更结实。',
     },
   ],
-  source: { label: 'Origami Fun · Origami Fan', url: 'https://www.origami-fun.com/origami-fan.html' },
+  source: { label: 'Origami Fun · Origami Fan', url: 'https://web.archive.org/web/2024/https://www.origami-fun.com/origami-fan.html' },
 };

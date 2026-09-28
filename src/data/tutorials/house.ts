@@ -57,5 +57,5 @@ export const house: Tutorial = {
       tip: '折一排小房子，就是一条小街啦。',
     },
   ],
-  source: { label: 'Origami Make · Origami House', url: 'http://en.origami-make.org/origami-house-simple' },
+  source: { label: 'Origami Make · Origami House', url: 'https://web.archive.org/web/2024/http://en.origami-make.org/origami-house-simple' },
 };

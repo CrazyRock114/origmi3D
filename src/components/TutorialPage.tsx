@@ -64,6 +64,9 @@ export default function TutorialPage({ tutorial }: { tutorial: Tutorial }) {
     const onKey = (e: KeyboardEvent) => {
       const p = playerRef.current;
       if (!p) return;
+      // 输入控件聚焦时不劫持按键
+      const tag = (e.target as HTMLElement | null)?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
       if (e.key === 'ArrowRight') p.next();
       else if (e.key === 'ArrowLeft') p.prev();
       else if (e.key === ' ') {

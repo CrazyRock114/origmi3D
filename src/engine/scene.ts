@@ -2,6 +2,7 @@
 // 依赖背面剔除自动呈现“折过来后看到纸的另一面”。
 
 import * as THREE from 'three';
+import earcut from 'earcut';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import type { Face, MovingPiece, PaperSpec } from './fold';
 import { newellNormal, rotatePts, type Pt3 } from './geometry';
@@ -16,6 +17,33 @@ interface FaceMeshes {
 }
 
 const GHOST_COLOR = 0x5b5247;
+
+/** 任意多边形（允许凹多边形）三角剖分：投影到主平面 → earcut → 映射回 3D 顶点 */
+function triangulate(pts: Pt3[]): number[] {
+  if (pts.length < 3) return [];
+  const n = newellNormal(pts);
+  const ax =
+    Math.abs(n[0]) > Math.abs(n[1])
+      ? Math.abs(n[0]) > Math.abs(n[2])
+        ? 0
+        : 2
+      : Math.abs(n[1]) > Math.abs(n[2])
+        ? 1
+        : 2;
+  const flat: number[] = [];
+  for (const p of pts) {
+    if (ax === 0) flat.push(p[1], p[2]);
+    else if (ax === 1) flat.push(p[0], p[2]);
+    else flat.push(p[0], p[1]);
+  }
+  const idx = earcut(flat);
+  const tri: number[] = [];
+  for (let i = 0; i < idx.length; i++) {
+    const p = pts[idx[i]];
+    tri.push(p[0], p[1], p[2]);
+  }
+  return tri;
+}
 
 /** 三维质心 */
 function centroid3(pts: Pt3[]): Pt3 {
@@ -101,6 +129,8 @@ export class OrigamiScene {
     const back = this.paper?.back ?? '#fffaf0';
     this.matFront?.dispose();
     this.matBack?.dispose();
+    this.matLine?.dispose();
+    this.matGhost?.dispose();
     this.matFront = new THREE.MeshLambertMaterial({ color: new THREE.Color(front), side: THREE.FrontSide });
     this.matBack = new THREE.MeshLambertMaterial({ color: new THREE.Color(back), side: THREE.BackSide });
     this.matLine = new THREE.LineBasicMaterial({
@@ -133,12 +163,8 @@ export class OrigamiScene {
   }
 
   private faceGeometry(pts: Pt3[]): THREE.BufferGeometry {
-    const tri: number[] = [];
-    for (let i = 1; i < pts.length - 1; i++) {
-      tri.push(...pts[0], ...pts[i], ...pts[i + 1]);
-    }
     const geo = new THREE.BufferGeometry();
-    geo.setAttribute('position', new THREE.Float32BufferAttribute(tri, 3));
+    geo.setAttribute('position', new THREE.Float32BufferAttribute(triangulate(pts), 3));
     geo.computeVertexNormals();
     return geo;
   }
@@ -186,10 +212,8 @@ export class OrigamiScene {
   updateFacePositions(id: number, pts: Pt3[]) {
     const m = this.faceMeshes.get(id);
     if (!m) return;
-    const tri: number[] = [];
-    for (let i = 1; i < pts.length - 1; i++) tri.push(...pts[0], ...pts[i], ...pts[i + 1]);
     const pos = m.geo.getAttribute('position') as THREE.BufferAttribute;
-    (pos.array as Float32Array).set(tri);
+    (pos.array as Float32Array).set(triangulate(pts));
     pos.needsUpdate = true;
     m.geo.computeVertexNormals();
   }
@@ -286,6 +310,10 @@ export class OrigamiScene {
     this.faceMeshes.clear();
     this.basePts.clear();
     this.clearGhost();
+    this.matFront.dispose();
+    this.matBack.dispose();
+    this.matLine.dispose();
+    this.matGhost.dispose();
     this.controls.dispose();
     this.renderer.dispose();
     this.renderer.domElement.remove();

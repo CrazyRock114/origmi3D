@@ -72,7 +72,15 @@ export function clipHalf(poly: Pt3[], a: Vec2, n: Vec2): Pt3[] {
       ]);
     }
   }
-  return out;
+  if (out.length <= 1) return out;
+  const dedup: Pt3[] = [];
+  for (let i = 0; i < out.length; i++) {
+    const p1 = out[i];
+    const p2 = out[(i + 1) % out.length];
+    const dist2 = (p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2 + (p1[2] - p2[2]) ** 2;
+    if (dist2 > 1e-12) dedup.push(p1);
+  }
+  return dedup;
 }
 
 export function pointInPoly(p: Vec2, pts: Pt3[]): boolean {

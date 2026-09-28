@@ -79,5 +79,5 @@ export const plane: Tutorial = {
       tip: '机翼立得越直，飞得越稳。',
     },
   ],
-  source: { label: 'Origami Fun · Origami Plane', url: 'https://www.origami-fun.com/origami-plane.html' },
+  source: { label: 'Origami Fun · Origami Plane', url: 'https://web.archive.org/web/2024/https://www.origami-fun.com/origami-plane.html' },
 };

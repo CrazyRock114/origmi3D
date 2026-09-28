@@ -69,5 +69,5 @@ export const rabbit: Tutorial = {
       desc: '完成！画上红眼睛和三瓣嘴，小兔子完成啦。',
     },
   ],
-  source: { label: 'Origami Fun · Origami Rabbit Face', url: 'https://www.origami-fun.com/origami-rabbit.html' },
+  source: { label: 'Origami Fun · Origami Rabbit Face', url: 'https://web.archive.org/web/2024/https://www.origami-fun.com/origami-rabbit.html' },
 };
