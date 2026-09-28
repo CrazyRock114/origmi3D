@@ -1,0 +1,214 @@
+{
+  "source": "微信公众号「折纸造物记」",
+  "album": "折纸小玩具",
+  "album_url": "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkyMjM0ODcyMA==&action=getalbum&album_id=4662449167783657472#wechat_redirect",
+  "biz": "MzkyMjM0ODcyMA==",
+  "album_id": "4662449167783657472",
+  "total": 25,
+  "extracted_at": "2026-09-27",
+  "note": "清单由合集分页接口 (appmsgalbum?action=getalbum&f=json) 抓取。除指尖陀螺（已上线）外均为待转换教程。抓取方式与图片下载、IR 转写流程见 README「外部教程导入管线」。",
+  "articles": [
+    {
+      "title": "来，一起折只可爱呆萌的河马！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484932&idx=1&sn=e1ebad7415b99b402a36d3b65ebfef47&chksm=c1f4fbdbf68372cd6589ba71421007e16bfb00bc1e8662e79bbff1b68f4fe9414f5704da6d88#rd",
+      "mid": "2247484932",
+      "status": "done",
+      "note": "已转换（简化折序+沉折算子）：十字折痕+四角沉折×4(招牌动作)+山折半折+头部内翻+吻部折+河马pose（拱背方身）。id=hippo"
+    },
+    {
+      "title": "国庆特别篇 没有一个男孩可以拒绝一辆坦克",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484910&idx=1&sn=495eeac9e31f11373e442e6846dfe3e2&chksm=c1f4f831f683712743e5297499d6a29b44f83e8b5a70c3462cb0eee68562671515ba169c6b72#rd",
+      "mid": "2247484910",
+      "status": "blocked",
+      "note": "判型：blocked——三件套组装模型（履带+炮塔+炮管），需剪纸(⑫⑬)、卷纸(㉗-㉙)、涂胶、打孔(㉖)、多纸插装(㉛-㊱)，超出单纸折叠引擎范围"
+    },
+    {
+      "title": "有了这折纸陀螺，谁上班上课还会无聊啊！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484873&idx=1&sn=0f8ef6d4b3a6b7676d4dcbadf222b134&chksm=c1f4f816f6837100e61de49d837bfd4f2f7eb1de15817e095bc2e8cf5fd6d07c84ecbd58db01#rd",
+      "mid": "2247484873",
+      "status": "blocked",
+      "note": "判型：blocked——三纸组合模块（螺旋底座+塞入口袋的小模块+X形转轴），需多纸插装"
+    },
+    {
+      "title": "国庆特别篇 闪闪红星折纸教程",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484751&idx=1&sn=afc44fd845a866aad57155dee5ca0eaa&chksm=c1f4f890f6837186596063c9c1278c3ef5529eb43dd581f4ea2f97cf9944ee563188e19f405b#rd",
+      "mid": "2247484751",
+      "status": "blocked",
+      "note": "五角星塌缩(可做) + 立体插入成型(不可做)，需立体插入/捏合算子"
+    },
+    {
+      "title": "折一只可爱且忠诚的腊肠小狗吧！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484733&idx=1&sn=f284ff34aa2f555b578e732b681104b6&chksm=c1f4f8e2f68371f4bde7da37bcca7fcd14712e7c3c77c4d236260c9a7d856ca48f55af1fe87b#rd",
+      "mid": "2247484733",
+      "status": "done",
+      "note": "已转换（首个 reverse 算子教程）：prefold×2+左右折入+半折+头/尾尖内翻折×2+脖尾立起90°×2+腿部内翻折+腊肠犬侧影pose。id=dachshund"
+    },
+    {
+      "title": "折纸小公鸡🐓详细版教程",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484593&idx=1&sn=c4572d25c44397240f139fa5f4ba513f&chksm=c1f4f96ef683707816a7d205a56cef7f7f8821dd8644d98828e198688487619a24808e95de70#rd",
+      "mid": "2247484593",
+      "status": "done",
+      "note": "已转换：十字折痕+四角向心(blintz)+对折+花瓣折(拉角)+翻面+脖子压折+公鸡侧影pose(冠/肉垂/尾弧)。id=rooster"
+    },
+    {
+      "title": "30s学会折纸小猫猫！简单又治愈！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484233&idx=1&sn=0c4897a8878ce5ce6c24a535f25c866d&chksm=c1f4fe96f6837780db5273d413253f818e18657c8474f52008916547433833fb833d1664307d#rd",
+      "mid": "2247484233",
+      "status": "done",
+      "note": "已转换：中线prefold+双角折(箭头)+折痕组+手风琴收拢pose+头部压折+耳朵折+站立猫pose(三角头/竖耳/长腿/卷尾)。id=cat"
+    },
+    {
+      "title": "10s学会折纸蝴蝶🦋",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484181&idx=1&sn=8f98074ccad039dbc02e717b5f8010ad&chksm=c1f4fecaf68377dc5b1cde184c5254adc35f4206ab77f736fe50ed7d33003287656e7312276d#rd",
+      "mid": "2247484181",
+      "status": "blocked",
+      "note": "翅膀需剪圆弧 + 捏合立体整形，超出折叠引擎"
+    },
+    {
+      "title": "10s学会弹跳青蛙（零基础",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247483997&idx=1&sn=64847c80d57f1c4c1887246015278b75&chksm=c1f4ff82f683769406106e272c031acf37c377d25ff47c8d30c83d667f151a4950051bc21d1d#rd",
+      "mid": "2247483997",
+      "status": "done",
+      "note": "已上线（双水气球塌缩用 collapse 算子）"
+    },
+    {
+      "title": "30s学会折纸恐龙🦖，手残党速冲！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247483907&idx=1&sn=5baf6c6efa04b22d9b19b2ee25b87868&chksm=c1f4ffdcf68376cacc4815a6cd0b469e65d955d465ad67dd1b4dd16a5ef93e91cfc6b2f54910#rd",
+      "mid": "2247483907",
+      "status": "done",
+      "note": "已转换：prefold×2+左右顶折入×3+并拢pose+底角上拉+对折+颈/头内翻(mountain 150)+T-rex立姿pose。id=dino"
+    },
+    {
+      "title": "国庆特别篇 | 折纸手工飞机",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484771&idx=1&sn=eb72ac7ba17d8a7078d309b7a9a957e5&chksm=c1f4f8bcf68371aadd59ac25fe0f639e8fa6d4e3aa608b000ab6c7e28fd09bffc16a9d7e9975#rd",
+      "mid": "2247484771",
+      "status": "done",
+      "note": "已转换（简化折序）：中线prefold+双角向心+dart折×2+山折半折+战斗机pose（后掠翼/双垂尾）。原文28步的后段3D整形由pose呈现。id=fighterjet"
+    },
+    {
+      "title": "中秋快到了，折一个月亮船🌙送给你",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484666&idx=1&sn=789d3d7e989e9c2a69f1aaeecc5fa0c5&chksm=c1f4f925f68370333ad9168b42cfa5d5c897090ad545f2a97d0a5d2180740531b89240d08e9f#rd",
+      "mid": "2247484666",
+      "status": "blocked",
+      "note": "三件套组合（剪开成月亮环/玉兔/底座）+ 立体褶皱聚拢，超出折叠引擎"
+    },
+    {
+      "title": "中秋快到了，折一只可爱的月兔🐰",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484642&idx=1&sn=f6287141c422072075afaa8837d860ab&chksm=c1f4f93df683702b465819003c2790e3bca64dc8bc94a6b2c290e179804c28b57362b5b95ac0#rd",
+      "mid": "2247484642",
+      "status": "done",
+      "note": "已转换：米字折痕+水气球塌缩+左右折入+压折穿插×2+翻面+上折+充气pose（双层深z圆身+双耳）。id=moonrabbit"
+    },
+    {
+      "title": "男孩子本命武器飞镖来喽！总有一款适合你",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484631&idx=1&sn=a5912e4620a1b0cab113ae9d0e38aead&chksm=c1f4f908f683701e205948d4b8ebcdac1c4fd8635ae41f14731fcdfa66eaa6a7c5056e2414f8#rd",
+      "mid": "2247484631",
+      "status": "blocked",
+      "note": "判型：blocked——4纸模块飞镖（每单元折刀刃⑨-⑳互相穿插+胶粘固定），多纸组装"
+    },
+    {
+      "title": "愿大数据推送给每一位热爱和平生活的人🕊️",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484570&idx=1&sn=7307f4895b43096852cb1ac2f4d95eae&chksm=c1f4f945f6837053fbf940c640acc0ea54bef76055cb10f813ce023c2fd5de524f5a42caa8e9#rd",
+      "mid": "2247484570",
+      "status": "done",
+      "note": "和平鸽已转换：fold×4 真实折叠 + pose 展开 L 形 + 头部内翻 + 尾部对折 + pose 定型。id=dove"
+    },
+    {
+      "title": "10s学会 | 闲着也是闲着折一坨搞怪便便吧💩",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484529&idx=1&sn=26070200f93310c359fae17d9715f876&chksm=c1f4f9aef68370b83aaa32ac21e2ed6fd31305719176ff12ac4d528b3ef3829b1b4cf8b5b5dd#rd",
+      "mid": "2247484529",
+      "status": "done",
+      "note": "已上线（水气球塌缩+收拢造型 pose；内翻折/squash 细节在 desc 中文字说明）",
+      "analysis": {
+        "progress": "步骤 1-18 已解析完毕（含内翻折×2、squash×2、交替翻折×4）；19-20 面板在损坏的 img_09/img_10 中，重下后补齐即可转写",
+        "chain": [
+          "1: 米字折痕（对角线+十字）",
+          "2-4: 沿中线收拢成双三角（水气球塌缩）",
+          "5-6: squash：上面小三角向下展开（内压折）",
+          "7: 下方三角沿水平虚线向上翻折",
+          "8: 沿虚线再次向下翻折",
+          "9: 底部沿 V 虚线向内压折（squash）",
+          "10: 向外翻折（外翻）",
+          "11-12: 沿虚线向下/向上交替翻折（N 形褶皱开始）",
+          "13: 虚线处内翻折 + 上面小三角向下展开（内翻折模式①）",
+          "14: 下三角向内翻折（内翻折模式②）",
+          "15-16: 沿虚线向下/向上交替翻折",
+          "17: 三角开口处向内挤压出正方形（squash 实证②）",
+          "18: 沿虚线向上翻折",
+          "19-20: 待补（N 形折+内压成 poop 造型）"
+        ]
+      }
+    },
+    {
+      "title": "教师节贺卡来啦！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484508&idx=1&sn=4f6b6fb7843f2f83120528cc8b0d30a8&chksm=c1f4f983f6837095c281b39b12031d74733989256e2d9adc72e857761530b6092ed8736a5c52#rd",
+      "mid": "2247484508",
+      "status": "blocked",
+      "note": "剪纸+组装手工（剪刀裁剪、胶水粘贴花瓣），非折纸折叠，超出折叠引擎范畴"
+    },
+    {
+      "title": "帅哭！用纸做只小鲨鱼🦈",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484261&idx=1&sn=c112ffd4277d13c06948f790285dcc76&chksm=c1f4febaf68377ac83cf84ede9bbfe5be2255412647a2cb7ce201b6f9cc1d3916efb7a3a5fff#rd",
+      "mid": "2247484261",
+      "status": "done",
+      "note": "已转换：prefold×2+上下角折+左右折入+吻部+翻面+双胸鳍外翻(150°)+鲨鱼侧影pose。id=shark"
+    },
+    {
+      "title": "一起来折,好玩的折纸蝙蝠",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484202&idx=1&sn=eb8452d438e4516ea2668bda116d983e&chksm=c1f4fef5f68377e348f89f8cf3f5603922e8345e4656cf3bd0f405c0222d958f1a05d4bca647#rd",
+      "mid": "2247484202",
+      "status": "done",
+      "note": "已转换：对角折+中线prefold+顶角下折+上折+双侧压褶(150°)+W翼蝙蝠pose。id=bat2"
+    },
+    {
+      "title": "10s学会折纸小兔🐰 超可爱",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484163&idx=1&sn=1a30eb4fa4c208ca6d6ef2b8571ec12f&chksm=c1f4fedcf68377cae32b6f6db4a494de1e93320246af8dd2f8da5efebe63fc2956d2d663f5f4#rd",
+      "mid": "2247484163",
+      "status": "done",
+      "note": "已上线（水气球塌缩用 collapse 算子逐面片刚性旋转演示）"
+    },
+    {
+      "title": "25秒教你用A4纸做一把玩具枪",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484135&idx=1&sn=59e68c5cfa196c62ab1c3b55435469bc&chksm=c1f4ff38f683762e4d8744b2a4ebde7c06adee4b25295dd344e2386ec8464f2c2cd78d28fdeb#rd",
+      "mid": "2247484135",
+      "status": "blocked",
+      "note": "原文已被作者删除（微信提示 content deleted），无法获取教程内容"
+    },
+    {
+      "title": "好玩的弹力小蛇折纸教程",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484114&idx=1&sn=2acf8b88b72d323458a9eaa9c8858d80&chksm=c1f4ff0df683761bffbabb6b46f331587a9ea13403f38e6871bf513b3843f76b7dcd90a777a4#rd",
+      "mid": "2247484114",
+      "status": "done",
+      "note": "已转换：对角折+角对折+三等分风琴褶×2组+头部折+分段立体pose。id=snake"
+    },
+    {
+      "title": "1分钟学折纸卡皮巴拉！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484041&idx=1&sn=50420343b9860f24170611fcde239d72&chksm=c1f4ff56f6837640aeca040e419434e14e1b72a60c7c5f06ad9373ac53943e23fc397cd31e3e#rd",
+      "mid": "2247484041",
+      "status": "done",
+      "note": "已转换：prefold×2+角折×4+并拢pose+三角折+半折+定型pose。id=capy"
+    },
+    {
+      "title": "教你折纸手枪，折法简单，一看就会！",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247484024&idx=1&sn=c659759cfd27aedb2f4939e705996bea&chksm=c1f4ffa7f68376b19ff4896ba180230995c93e9cc8784f994308e7a4866e7fd07e7a9c2d026f#rd",
+      "mid": "2247484024",
+      "status": "blocked",
+      "note": "判型：blocked——两张A4纸，含卷筒枪管（立体圆管卷纸）+ 组装，超出单纸折叠范围"
+    },
+    {
+      "title": "🤗解锁好玩的指尖陀螺🔥有手就行",
+      "url": "http://mp.weixin.qq.com/s?__biz=MzkyMjM0ODcyMA==&mid=2247483973&idx=1&sn=b00850d38402c706f2445203db1d2f9d&chksm=c1f4ff9af683768cf39180175c65338e4ddfc56c4356fa6ecd706466eb3264d796790f999c64#rd",
+      "mid": "2247483973",
+      "status": "done"
+    }
+  ],
+  "analysis": {
+    "summary": "该合集的教程以 3D 立体玩具为主：大部分包含整体塌缩动作（风车基础形/水气球基础形/猪基础形）与进阶算子（花瓣折/内翻折/沉折），少数为纯平折模型。",
+    "categories": {
+      "flat": "纯平折（可立即转换）",
+      "collapse": "含一次整体塌缩（可用 pose 形变桥接，但忠实演示需要塌缩算子）",
+      "advanced": "含花瓣折/内翻折/沉折（需引擎算子扩展）"
+    },
+    "assessment": "河马=advanced(40步鸟基础+沉折)；小兔/卡皮巴拉=collapse(水气球/猪基础)；其余待逐篇判型。"
+  }
+}

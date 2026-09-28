@@ -1,0 +1,83 @@
+import type { Tutorial } from '../../engine/fold';
+import { RECT_PORTRAIT, v } from '../util';
+
+/** 纸飞机 —— 经典尖头纸飞机（开翼款），全部由对折完成 */
+export const plane: Tutorial = {
+  id: 'plane',
+  title: '纸飞机',
+  emoji: '✈️',
+  category: '玩具',
+  difficulty: 1,
+  minutes: 4,
+  intro: '永远是孩子们最爱的纸飞机！折好就能飞出去。',
+  paper: { outline: RECT_PORTRAIT, front: '#EAF4FF', back: '#3D8FD6' },
+  steps: [
+    {
+      type: 'prefold',
+      a: v(0, -1),
+      b: v(0, 1),
+      m: v(-0.4, 0),
+      dir: 'valley',
+      desc: '把纸左右对折出一条中线，再展开。',
+      tip: '对齐边缘，压出清晰的中线折痕。',
+    },
+    {
+      type: 'fold',
+      a: v(0, 1),
+      b: v(-0.75, 0.25),
+      m: v(-0.5, 0.8),
+      dir: 'valley',
+      desc: '把左上角沿斜线折下来，尖角正好落在中线上。',
+    },
+    {
+      type: 'fold',
+      a: v(0, 1),
+      b: v(0.75, 0.25),
+      m: v(0.5, 0.8),
+      dir: 'valley',
+      desc: '右上角同样折向中线，上面出现一个尖头。',
+    },
+    {
+      type: 'fold',
+      a: v(0, 1),
+      b: v(-0.75, -0.81),
+      m: v(-0.55, 0.3),
+      dir: 'valley',
+      desc: '把左侧的斜边再向中线折一次，压出机头。',
+      tip: '这一折让机头更结实、飞得更远。',
+    },
+    {
+      type: 'fold',
+      a: v(0, 1),
+      b: v(0.75, -0.81),
+      m: v(0.55, 0.3),
+      dir: 'valley',
+      desc: '右侧同样再折一次，两边要对称。',
+    },
+    {
+      type: 'fold',
+      a: v(0, 1),
+      b: v(-0.32, -1),
+      m: v(-0.65, -0.3),
+      dir: 'mountain',
+      angle: 45,
+      desc: '把左边的机翼沿斜线向下折。',
+      tip: '不用折平，让机翼微微翘起。',
+    },
+    {
+      type: 'fold',
+      a: v(0, 1),
+      b: v(0.32, -1),
+      m: v(0.65, -0.3),
+      dir: 'mountain',
+      angle: 45,
+      desc: '右边的机翼向下折，两边角度一样。',
+    },
+    {
+      type: 'note',
+      desc: '完成！捏住机头下方，轻轻向前一掷——飞吧！',
+      tip: '机翼立得越直，飞得越稳。',
+    },
+  ],
+  source: { label: 'Origami Fun · Origami Plane', url: 'https://www.origami-fun.com/origami-plane.html' },
+};
